@@ -41,9 +41,27 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+### Plot boxplots
+
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+
+
+After interpreting the box plot, it shows that the skill team can do more push-ups than the line team. 
+The bottom of the skill box is higher than the top of the line box. The skill box is completely higher than the line box; therefore it shows that all of the skill team even the ones in the 25th percentile were able to defeat the line team including the line's 75th percentile. Also, the median of the skill team is approximately 50 which is much high than the median of the skill team which is approximately 15.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+# Numerical results
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+From our numerical results, we can infer that the skill players did approximately 3x the push ups than the line players. The mean for the skill players is 49 and the mean of the line players is 17, therefore the skill players are more fit and able to achieve more push-ups.
 
 ## Inferential Results
 
