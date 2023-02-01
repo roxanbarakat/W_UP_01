@@ -77,3 +77,4 @@ The probability of getting a result like this is 0.000009421 if there's really n
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+First, using box plots we were able to analyze the given data and infer some numerical values in order to make a statement about whether the skill or the line team have done more push ups. Then, using numerical results, we confirmed our initial statement about the skill team doing more push-ups than the line team. Lastly, using inferential results we rejected the hypothesis due to the given p-value. Overall, I was able to go through and analyze the t-test, fav stats, and box plot.
